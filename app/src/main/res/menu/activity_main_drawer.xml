@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/app_name">
+        <menu>
+            <item
+                android:id="@+id/nav_config"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/config" />
+            <item
+                android:id="@+id/nav_cam_control"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/camAndControl" />
+        </menu>
+    </item>
+    <item android:title="@string/myAccount">
+        <menu>
+            <item
+                android:id="@+id/nav_dashboard"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/dashboard" />
+            <item
+                android:id="@+id/nav_account_settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/action_settings" /><!--Maybe string -> info (to prevent confusion with the other "Settings")-->
+        </menu>
+    </item>
+    <item android:title="@string/app">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/action_settings" />
+        </menu>
+    </item>
+
+</menu>

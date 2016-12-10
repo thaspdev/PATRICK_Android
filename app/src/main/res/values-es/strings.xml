@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Patrick</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="navigation_drawer_close">Cerrar el cajón de navegación</string>
+    <string name="navigation_drawer_open">Abrir el cajón de navegación</string>
+    <string name="app">Aplicacíon</string>
+    <string name="config">Configuración</string>
+    <string name="dashboard">Tablero de indicadores</string>
+    <string name="camAndControl">Cámara y control</string>
+    <string name="myAccount">Mi cuenta</string>
+</resources>
