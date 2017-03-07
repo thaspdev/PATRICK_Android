@@ -9,4 +9,10 @@
     <string name="dashboard">Tableau de bord</string>
     <string name="camAndControl">Caméra et contrôle</string>
     <string name="myAccount">Mon compte</string>
+    <string name="home">Accueil</string>
+    <string name="paired">appairé</string>
+    <string name="robotName">Nom du robot :</string>
+    <string name="wifiPassword">Mot de passe Wi-Fi :</string>
+    <string name="selectAFileToAdd">Choisir un fichier :</string>
+    <string name="addAFileToTheRobot">Ajouter un fichier de reconnaissance faciale au robot :</string>
 </resources>

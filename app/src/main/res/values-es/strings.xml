@@ -9,4 +9,10 @@
     <string name="dashboard">Tablero de indicadores</string>
     <string name="camAndControl">Cámara y control</string>
     <string name="myAccount">Mi cuenta</string>
+    <string name="home">Inicio</string>
+    <string name="paired">emparejado</string>
+    <string name="robotName">Nombre del robot :</string>
+    <string name="wifiPassword">Contraseña Wi-Fi :</string>
+    <string name="selectAFileToAdd">Elegir un fichero :</string>
+    <string name="addAFileToTheRobot">Añadir un fichero de ... al robot :</string>
 </resources>

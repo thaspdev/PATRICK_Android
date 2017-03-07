@@ -2,11 +2,15 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/home"/>
+
     <item android:title="@string/app_name">
         <menu>
             <item
                 android:id="@+id/nav_config"
-                android:icon="@drawable/ic_menu_camera"
+                android:icon="@drawable/ic_menu_manage"
                 android:title="@string/config" />
             <item
                 android:id="@+id/nav_cam_control"

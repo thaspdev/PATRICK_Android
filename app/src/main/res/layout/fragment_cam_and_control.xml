@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CamAndControlFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <VideoView
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:id="@+id/cameraFeed" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+                <Button
+                    android:text="↑"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="26dp"
+                    android:id="@+id/robotHaut"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:text="↺"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/robotAiguilles"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:layout_marginRight="28dp"
+                    android:layout_marginEnd="28dp"
+                    android:layout_toLeftOf="@+id/robotHaut"
+                    android:layout_toStartOf="@+id/robotHaut"
+                    android:layout_centerVertical="true"/>
+
+                <Button
+                    android:text="↻"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/robotContraireAiguilles"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:layout_marginLeft="33dp"
+                    android:layout_marginStart="33dp"
+                    android:layout_toRightOf="@+id/robotBas"
+                    android:layout_toEndOf="@+id/robotBas"
+                    android:layout_centerVertical="true"/>
+
+                <Button
+                    android:text="↓"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/robotBas"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:layout_marginBottom="26dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignLeft="@+id/robotHaut"
+                    android:layout_alignStart="@+id/robotHaut" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!--android:fontFamily="sans-serif-medium"-->
+
+    </RelativeLayout>
+</FrameLayout>

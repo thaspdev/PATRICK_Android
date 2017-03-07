@@ -1,0 +1,110 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thaspdev.mypatrick.ConfigFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:ems="10"
+            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp"
+            android:id="@+id/robotNameEditText"
+            android:layout_alignBaseline="@+id/robotName"
+            android:layout_alignBottom="@+id/robotName"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:layout_below="@+id/robotNameEditText"
+            android:layout_alignRight="@+id/robotNameEditText"
+            android:layout_alignEnd="@+id/robotNameEditText"
+            android:id="@+id/wifiPasswordEditText" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="145dp"
+            android:layout_below="@+id/wifiPasswordEditText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="21dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="32dp"
+            android:id="@+id/robotName"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/robotName" />
+
+        <TextView
+            android:text="@string/selectAFileToAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="108dp"
+            android:id="@+id/addXML"
+            android:layout_below="@+id/wifiPasswordEditText"
+            android:layout_alignLeft="@+id/wifiPassword"
+            android:layout_alignStart="@+id/wifiPassword" />
+
+        <TextView
+            android:text="@string/wifiPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wifiPassword"
+            android:layout_alignBaseline="@+id/wifiPasswordEditText"
+            android:layout_alignBottom="@+id/wifiPasswordEditText"
+            android:layout_alignLeft="@+id/robotName"
+            android:layout_alignStart="@+id/robotName" />
+
+        <Button
+            android:text="..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_alignBaseline="@+id/addXML"
+            android:layout_alignBottom="@+id/addXML"
+            android:layout_alignRight="@+id/wifiPasswordEditText"
+            android:layout_alignEnd="@+id/wifiPasswordEditText" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="File"
+            android:ems="10"
+            android:layout_alignBottom="@+id/button"
+            android:layout_toLeftOf="@+id/button"
+            android:id="@+id/editText3"
+            android:layout_alignLeft="@+id/wifiPasswordEditText"
+            android:layout_alignStart="@+id/wifiPasswordEditText" />
+
+        <TextView
+            android:text="@string/addAFileToTheRobot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_above="@+id/button"
+            android:layout_alignLeft="@+id/addXML"
+            android:layout_alignStart="@+id/addXML"
+            android:layout_marginBottom="11dp" />
+
+    </RelativeLayout>
+</FrameLayout>

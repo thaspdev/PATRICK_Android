@@ -10,4 +10,12 @@
     <string name="dashboard">Dashboard</string>
     <string name="camAndControl">Camera and control</string>
     <string name="myAccount">My Account</string>
+    <string name="home">Home</string>
+    <string name="paired">paired</string>
+    <string name="robotName">Robot\'s name:</string>
+    <string name="wifiPassword">Wi-Fi password:</string>
+    <string name="selectAFileToAdd">Select a file:</string>
+    <string name="addAFileToTheRobot">Add a face recognition file to the robot:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
 </resources>
